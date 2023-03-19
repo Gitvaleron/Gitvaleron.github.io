@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+@@include('html/head.html', {
+"title": "Новости"
+})
+
+<body>
+    @@include('html/header.html', {})
+    <div class="wrapper">
+        <h1 class="title__label">Блог и Новости</h1>
+    </div>
+    <div class="page__menu">
+        <nav class="page__menu-nav">
+            <ul class="page__menu-nav--btns">
+                <li>
+                    <div><a class="page__menu-nav--link" href=""><img src="@img/svgicons/menu_icons/menu-star.svg"
+                                alt="Избранное">
+                            <p>Избранное</p>
+                        </a></div>
+                </li>
+                <li>
+                    <div><a class="page__menu-nav--link" href=""><img src="@img/svgicons/menu_icons/menu-casino.svg"
+                                alt="Казино">
+                            <p>Казино</p>
+                        </a></div>
+                </li>
+                <li>
+                    <div><a class="page__menu-nav--link" href=""><img src="@img/svgicons/menu_icons/menu-newspaper.svg"
+                                alt="Жизнь SpinBetter">
+                            <p>Жизнь SpinBetter</p>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div><a class="page__menu-nav--link" href=""><img src="@img/svgicons/menu_icons/menu-football.svg"
+                                alt="Футбол">
+                            <p>Футбол</p>
+                        </a></div>
+                </li>
+                <li>
+                    <div><a class="page__menu-nav--link" href=""><img src="@img/svgicons/menu_icons/menu-volleyball.svg"
+                                alt="Волейбол">
+                            <p>Волейбол</p>
+                        </a></div>
+                </li>
+                <li>
+                    <div><a class="page__menu-nav--link" href=""><img src="@img/svgicons/menu_icons/menu-tennis.svg"
+                                alt="Теннис">
+                            <p>Теннис</p>
+                        </a></div>
+                </li>
+                <li>
+                    <div><a class="page__menu-nav--link" href=""><img src="@img/svgicons/menu_icons/menu-hockey.svg"
+                                alt="Хокей">
+                            <p>Хокей</p>
+                        </a></div>
+                </li>
+                <li>
+                    <div><a class="page__menu-nav--link" href=""><img src="@img/svgicons/menu_icons/menu-basket.svg"
+                                alt="Баскетбол">
+                            <p>Баскетбол</p>
+                        </a></div>
+                </li>
+                <li>
+                    <div><a class="page__menu-nav--link" href=""><img src="@img/svgicons/menu_icons/menu-other.svg"
+                                alt="Другой спорт">
+                            <p>Другой спорт</p>
+                        </a></div>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="page__news wrapper">
+        <div class="page__news-content">
+            <h2 class="page__news-content--name">Новость №1</h2>
+            <p class="page__news-content--date">01.01.2001</p>
+            <p class="page__news-content--text">Один из главных вопросов,
+                который сейчас волнует самых азартных
+                футбольных фанов – кто займет первое
+                место в «группе смерти» на ЧМ-2022?
+                Миллионы болельщиков ждут самых
+                зрелищных поединков топовых коллективов!</p>
+        </div>
+        <div class="page__news-img"><img src="@img/news/football.jpg" alt="football"></div>
+    </div>
+
+    <div class="page__news wrapper">
+        <div class="page__news-content">
+            <h2 class="page__news-content--name">Новость №2</h2>
+            <p class="page__news-content--date">01.01.2001</p>
+            <p class="page__news-content--text">Один из главных вопросов,
+                который сейчас волнует самых азартных
+                футбольных фанов – кто займет первое
+                место в «группе смерти» на ЧМ-2022?
+                Миллионы болельщиков ждут самых
+                зрелищных поединков топовых коллективов!</p>
+        </div>
+        <div class="page__news-img"><img src="@img/news/rugby.jpg" alt="rugby"></div>
+    </div>
+
+    <div class="page__news wrapper">
+        <div class="page__news-content">
+            <h2 class="page__news-content--name">Новость №3</h2>
+            <p class="page__news-content--date">01.01.2001</p>
+            <p class="page__news-content--text">Один из главных вопросов,
+                который сейчас волнует самых азартных
+                футбольных фанов – кто займет первое
+                место в «группе смерти» на ЧМ-2022?
+                Миллионы болельщиков ждут самых
+                зрелищных поединков топовых коллективов!</p>
+        </div>
+        <div class="page__news-img"><img src="@img/news/tennis.jpg" alt="tennis"></div>
+    </div>
+    @@include('html/footer.html', {})
+</body>
+
+</html>

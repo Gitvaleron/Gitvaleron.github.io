@@ -1,0 +1,82 @@
+.contacts__page {
+    background-color: #0D244B;
+    margin-bottom: 70px;
+
+    &-email--label {
+        text-align: center;
+        padding: 50px 0 70px;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 30px;
+    }
+
+    &-email--options {
+        display: flex;
+        justify-content: space-around;
+
+
+    }
+
+    &-email--options div p {
+        padding: 15px 0;
+        color: #CECCD4;
+    }
+}
+
+.contacts__form {
+    display: flex;
+    flex-direction: column;
+
+    &-username {
+        margin-bottom: 30px;
+    }
+
+    &-email {
+        margin-bottom: 30px;
+    }
+
+    &-text {
+        margin-bottom: 30px;
+        min-height: 300px;
+    }
+}
+
+.contacts__form input {
+    width: 100%;
+    padding: 30px;
+    border-radius: 30px;
+    background-color: rgba(206, 204, 212, 0.7);
+    ;
+}
+
+::placeholder {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: #0D244B;
+}
+
+.contacts__submit {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    &-checkbox {
+        font-size: 16px;
+        line-height: 20px;
+        color: #fff;
+    }
+
+    &-button {
+        background-color: #9E0000;
+        border-radius: 30px;
+        color: #fff;
+        font-size: 30px;
+        padding: 17px 74px;
+        margin: 45px 0 50px;
+        cursor: pointer;
+    }
+    
+}

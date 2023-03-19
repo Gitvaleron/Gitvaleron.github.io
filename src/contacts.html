@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+@@include('html/head.html', {
+"title": "Контакты"
+})
+
+<body>
+    @@include('html/header.html', {})
+    <div class="wrapper">
+        <h1 class="title__label">Контакты</h1>
+        <div class="contacts__page">
+            <div class="contacts__page-email">
+                <h2 class="contacts__page-email--label">Электронные адреса:</h2>
+                <div class="contacts__page-email--options">
+                    <div>
+                        <p>Техническая поддержка:</p>
+                        <p>Служба базопасности:</p>
+                        <p>Жалобы и предложения:</p>
+                        <p>Вопросы по платежам:</p>
+                    </div>
+                    <div>
+                        <p>www.spinbetter.com</p>
+                        <p>www.spinbetter.com</p>
+                        <p>www.spinbetter.com</p>
+                        <p>www.spinbetter.com</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <form action="">
+            <div class="contacts__form">
+                <label><input class="contacts__form-username" type="text" placeholder="Имя"></label>
+                <label><input class="contacts__form-email" type="email" placeholder="Email"></label>
+                <label><input class="contacts__form-text" type="text" placeholder="Ваше сообщение"></label>
+            </div>
+            <div class="contacts__submit">
+                <label><input type="checkbox"><span class="contacts__submit-checkbox">Подтвердите своё <a href="https://spinbetter.com/ua/information/rules">согласие</a> предоставить право на
+                        обработку и передачу
+                        третьим
+                        лицам своих персональных данных.</span></label>
+                <label><button class="contacts__submit-button">Отправить</button></label>
+            </div>
+
+        </form>
+        @@include('html/footer.html', {})
+    </div>
+</body>
